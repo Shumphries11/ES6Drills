@@ -17,7 +17,8 @@ console.log(getFirstNameConcise("Santita Humphries"));
 
 let doMath = (a, b) => ({ exponent: a ^ b, product: a / b});
 
-console.log(doMath(4,2));
+let answer = doMath(4,2);
+console.log(`${answer.exponent}, ${answer.product}`);
 
 let details = (name, location, favFood) => console.log(`${name}, ${location}, ${favFood}`);
 
